@@ -99,6 +99,20 @@ class MyApp extends StatelessWidget {
                               fontWeight: FontWeight.bold,
                             ),
                           ),
+                          Row(
+                            children: [
+                              Spacer(),
+                              Icon(
+                                CupertinoIcons.heart,
+                                size: 16,
+                                color: Colors.black54,
+                              ),
+                              Text(
+                                '1',
+                                style: TextStyle(color: Colors.black54),
+                              ),
+                            ],
+                          )
                         ],
                       ),
                     )
