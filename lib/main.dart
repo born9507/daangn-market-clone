@@ -114,6 +114,7 @@ class MyApp extends StatelessWidget {
         floatingActionButton: FloatingActionButton(
           onPressed: () {},
           backgroundColor: Color(0xFFFF7E36),
+          elevation: 1,
           child: Icon(
             Icons.add_rounded,
             size: 36,
